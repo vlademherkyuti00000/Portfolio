@@ -1,0 +1,181 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(166, 218, 255);
+    
+}
+.s1{
+  height: 8vh;
+  width: 100%;
+  background-color: pink;
+}
+
+
+b{
+    margin-top: -17px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 30px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.75);
+    text-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+  }
+table, th,td{
+    border: 1px solid black;
+    
+  }
+  table{
+    width: 80%;
+    height: 60%;
+    bottom: -80px;
+    border-top: 0;
+    position: relative;
+   border: none;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+    font-family: 'poppins' sans-serif;
+    font-size: 10px;
+
+  }
+
+  .t1{
+    empty-cells: hide;
+  }
+
+  .tata{
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+
+  }
+  .tr{
+    height: 18%;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* Periodic table hover*/
+  .ng:hover{
+    transform: scale(1.5);
+    background: rgba(128, 115, 0, 0.9);
+  }
+  .lg:hover {
+    transform: scale(1.5);
+    background: rgba(79, 128, 0, 0.9);
+  }
+  .lo:hover {
+    transform: scale(1.5);
+    background: rgb(143, 86, 0);
+  }
+  .lb:hover {
+    transform: scale(1.5);
+    background: rgb(255, 103, 123);
+  }
+  .lv:hover {
+    transform: scale(1.5);
+    background: rgb(255, 78, 246, 0.867); 
+  }
+  .gr:hover {
+    transform: scale(1.5);
+    background: rgb(154, 155, 154); 
+  }
+  .lime:hover {
+    transform: scale(1.5);
+    background: rgb(148, 236, 113); 
+  }
+  .wb:hover {
+    transform: scale(1.5);
+    background: rgb(238, 201, 153); 
+  }
+  .lr:hover {
+    transform: scale(1.5);
+    background: lightpink; 
+  }
+  .rn:hover{
+    transform: scale(1.5);
+    background: #008d9f;
+  }
+  .an{
+    float: left;
+    font-size: 10px;
+     opacity: 1; 
+  }
+  .am{
+    float:right;
+     font-size: 10px;
+    opacity: 1;
+  }
+  td{
+    text-align: center;
+  }
+  /*table color*/
+  .lg{
+    background-color: rgb(79, 128, 0, 0.9);
+    transition: .2s;
+  }
+  .lo{
+    background-color: rgb(143, 86, 0);
+    transition: .2s;
+  }
+  .lb{
+    background-color: rgb(255, 103, 123);
+    transition: .2s;
+  }
+  .lv{
+    background-color: rgba(255, 78, 246, 0.867);
+    transition: .2s;
+  }
+  .gr{
+    background-color: rgb(189, 186, 186);
+    transition: .2s;
+  }
+  .lime{
+    background-color: rgb(102, 247, 102);
+    transition: .2s;
+  }
+  .wb{
+    background-color: rgb(238, 201, 153);
+    transition: .2s;
+  }
+  .lr{
+    background-color: rgb(252, 166, 166);
+    transition: .2s;
+  }
+  .ng{
+    background-color: rgba(128, 115, 0, 0.9);
+    transition: .2s;
+  }
+  .rn{
+    background-color: #008d9f;
+    transition: .2s;
+  }
+/*Periodic name design*/
+  h1{
+    text-align: center;
+    animation: flicker 3s infinite alternate; 
+    color: white;
+    font-size: 50px;
+
+  }
+  
+  @keyframes flicker{
+    0%, 17%, 33%, 50%, 66%, 83%, 100%{
+      text-shadow: 
+      0 0 10px pink,
+      0 0 20px #000,
+      0 0 40px #000,
+      0 0 70px #000,
+      0 0 110px #000,
+      0 0 160px #000,
+      0 0 2000px #000
+    }
+
+    20%, 40%, 60%, 80%{
+      text-shadow: none;
+    }
+  }
+
+
+

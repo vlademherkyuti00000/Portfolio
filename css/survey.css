@@ -1,0 +1,37 @@
+body{
+  font-family: sans-serif;
+  background-image: url(https://images.template.net/95613/blue-aesthetic-background-k2k0c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-style: italic;
+  font-size: 18px;
+}
+.survey-form {
+  max-width: 600px;
+  margin-top: 10px;
+  border: 2px solid #060606;
+  padding: 20px;
+  border-radius: 5px;
+}
+.rating {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.rating input[type="radio"] {
+  display: none;
+}
+.rating label {
+  font-size: 40px;
+  color: #bbb;
+  cursor: pointer;
+}
+.rating label:hover,
+.rating label:hover ~ label,
+.rating input[type="radio"]:checked ~ label {
+  color: #fcd303;
+}
+.border{
+  display: flex;
+  flex-direction: column;
+}
